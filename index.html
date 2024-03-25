@@ -113,7 +113,90 @@
     postal code
 
     <input type="text"
-     placeholder=" A1A 1A1"
+     placeholder=" A1A"/>
    </label>
+
+   <style>
+
+    input {
+       font-size: 1rem;
+
+
+    }
+
+    input::placeholder {
+       color: goldenrod;
+    }
+   </style>
+
+
+
+  <h1>before and after</h1>
+
+   <h4> two of the most common pseudo elements are :: before and ::after</h4>
+
+   <h5> this paragraph has a little arrows</h5>
+
+
+    <style>
+       h5::before {
+          content: '';
+           display: block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+             background-color: peachpuff;
+              margin: 8px;
+
+       }
+
+       /* p::after {
+         content:  '<-';
+         color: deeppink;
+       } */
+    </style>
+
+    <h3 style=" text-align: center;">combinators</h3>
+
+    <nav>
+       <a href=""> home</a>
+       <a href=""> shop</a>
+    </nav>
+
+    <p> hello world! you might be interested <a href=""> animal planet</a></p>
+
+
+    <style>
+       p a {
+         color: blueviolet;
+       }
+    </style>
+
+
+  <h3 style="text-align: center;"> color</h3>
+
+  <p> the color property only effects the color of the text 
+
+
+     if we want to set a color to the element's background, 
+     we can use background color
+     
+  </p>
+
+    <style>
+       h3 {
+         color:  #5EED1B ;
+         background-color: rgb(161, 95, 9);
+       }
+    </style>
+
+    <h4  style=" text-align: center;"> units</h4>
+
+     <p style=" font-size: 10px;"> most popular unit for anything size related is the  pixel</p>
+
+
+
+
+
   </body>
 </html>
