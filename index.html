@@ -13,6 +13,9 @@
       name="description"
       content="High-performance HTML based website template."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1 style=" text-align: center;"> selectors</h1>
@@ -24,6 +27,9 @@
    <style>
      h1 {
        color: goldenrod;
+     }
+     html {
+      font-family:"Oswald", sans-serif;;
      }
 
 
@@ -193,10 +199,110 @@
     <h4  style=" text-align: center;"> units</h4>
 
      <p style=" font-size: 10px;"> most popular unit for anything size related is the  pixel</p>
+    <h1>block level elements</h1>
+
+    <div> 1</div>
+    <div> 2</div>
+    <p>div</p>
+    <div>
+       <h1> mca 1st year</h1>
+        <p> total strength: 120</p>
+    </div>
+
+    <div>
+      <h1> mca 2st year</h1>
+       <p> total strength: 130</p>
+   </div>
+
+   <h1>
+    <a> hello</a> hey <a>world</a>
+   </h1>
+
+   <h1>student  names</h1>
+   <p id="color" class="colors"> ashish </p>
+   <p id="font"> ankush</p>
+
+   <p> html id attribute is used to specify a unique id</p>
+   <p> you cant have more than one id html page</p>
+
+  
+   <style>
+     #color {
+      color: aqua;
+     }
+
+      #font {
+          font-size: 55px;
+      }
+
+      .colors {
+         color: #5EED1B;
+      }
+   </style>
 
 
 
+<div>
+   <h1 class=" one">1</h1>
+   <h1 class=" one">2</h1>
+   <h1 class=" one">3</h1>
+   <h1 class=" one">4</h1>
+   <h1 class=" one ">5</h1>
+</div>
 
 
-  </body>
+<style>
+   .one {
+     color: aquamarine;
+   }
+
+
+   .two {
+     color: brown;
+   }
+</style>
+
+<!-- 
+<iframe src="https://www.bing.com" frameborder="5" title="iframe example" width="300px" height="300px"> </iframe>
+  -->
+ <h1> radio</h1>
+
+ <form>
+<label for="male"> male</label>
+ <input type="radio" name="gender" id="male"/>
+
+ <label for="female"> female</label>
+ <input type="radio" name="gender" id="female"/>
+
+ </form>
+
+
+  <form action="">
+      
+    <p> write article</p>
+
+     <textarea name="article" cols="30" rows="10"> </textarea>
+     <input type="submit" value="submit"/>
+  </form>
+
+
+
+  <form action="" autocomplete="on">
+
+     <label for=" fname"> firstname</label>
+      <input type="text" name="firstname"/>
+
+      <button type="submit">submit</button>
+  </form>
+
+  <audio controls autoplay muted>
+    <source src="./song.mp3" type="audio/mp3">
+     <source src="dog.wav" type=" audio/wav">
+  </audio>
+
+
+  <video width=" 400" height="300" controls autoplay>
+    <source src="nature.mp4" type="video/mp4"/>
+  </video>
+  </body> 
 </html>
