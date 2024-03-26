@@ -13,296 +13,47 @@
       name="description"
       content="High-performance HTML based website template."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> -->
   </head>
   <body>
-    <h1 style=" text-align: center;"> selectors</h1>
-   <h4>CSS comes with an incredibly rich set of selectors, and those selectors can be mixed and matched in interesting ways.</h4>
-   <p> The most straightforward selectors target a specific tag or class:</p>
-
-   <h1><a class="nav-link">hello</a></h1>
-  
-   <style>
-     h1 {
-       color: goldenrod;
-     }
-     html {
-      font-family:"Oswald", sans-serif;;
-     }
 
 
-      .nav-link {
-        text-decoration: underline;
-      }
-   </style>
-
-
-   <h2 style=" text-align: center;"> pseudo classes</h2>
-
-
-     <p> lets  a we have a button and we want to change its color when we hoover</p>
-
-
-     <p> we can do this with hoover</p>
-
-     <button> hoover over me</button>
-
-     <style>
-
-      button:hover {
-
-        color: red;
-
-      }
-     </style>
-
-
-   <h1 style=" text-align: center;"> focus</h1>
-
-    <p> html element comes with interactive elements like buttons, link and form inputs and when we interact with that elements  by clicking , fous will allows apply styles </p>
- 
-
-     <button> hello</button>
-     <button> world</button>
-     <button>!</button>
-
-     <style>
-
-      button:focus {
-        border: 2px solid   rebeccapurple;
-         background: rebeccapurple;
-         color: azure;
-      }
-     </style>
-
-
-  <h1 style=" text-align: center;"> checked </h1>
-
-  <p> the checked pseudo- class  only applies to check boxes and radio buttons ,to indicate that input activated</p>
-  
-
-  <h1> pizza topics</h1>
-
-   <br/>
-
-    <label>
-      <input type="checkbox"/>
-        avacado
-       <br/>
-
-       <label>
-        <input type="checkbox"/>
-
-         brocolli
-       </label>
-    </label>
-    <style>
-
-      input:checked {
-        width: 24px;
-         height: 24px;
-      }
-    </style>
-
-
-  <h1>pseudo-elements</h1>
-
-  <p> pseudo-elements are like pseudo-classes but
-   they don't target a specific state insted, they target 
-    "sub-elements' within an element</p>
-
-   <p> for example, we can style the placeholder text in a form input with :: placeholder</p>
-   
-   <label>
-    postal code
-
-    <input type="text"
-     placeholder=" A1A"/>
-   </label>
-
-   <style>
-
-    input {
-       font-size: 1rem;
-
-
-    }
-
-    input::placeholder {
-       color: goldenrod;
-    }
-   </style>
-
-
-
-  <h1>before and after</h1>
-
-   <h4> two of the most common pseudo elements are :: before and ::after</h4>
-
-   <h5> this paragraph has a little arrows</h5>
-
+    <h2> Boost your app. lunch, earn</h2>
 
     <style>
-       h5::before {
-          content: '';
-           display: block;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-             background-color: peachpuff;
-              margin: 8px;
-
-       }
-
-       /* p::after {
-         content:  '<-';
-         color: deeppink;
-       } */
-    </style>
-
-    <h3 style=" text-align: center;">combinators</h3>
-
-    <nav>
-       <a href=""> home</a>
-       <a href=""> shop</a>
-    </nav>
-
-    <p> hello world! you might be interested <a href=""> animal planet</a></p>
-
-
-    <style>
-       p a {
-         color: blueviolet;
+       h2 {
+        
+          font-size: 32px;
+          text-align: center;
+          margin-bottom: 8px; 
        }
     </style>
 
+     <p style=" margin-top: 40px; font-size: 56px; text-align: center;">dont waste time to integrate api's and designing a pricing</p>
 
-  <h3 style="text-align: center;"> color</h3>
+    
+   <h1 style=" font-weight: 800; font-size: 40px;  margin-left: -5px; font-family: monospace; color: chocolate;"> ship your your startup in a weekend</h1>
 
-  <p> the color property only effects the color of the text 
 
+   <div> 
+  <h1>testimonial</h1>
+     <img 
+     src="https://source.unsplash.com/300x300/?houses"
+     width="100px"
+     height="100px"
+      />
 
-     if we want to set a color to the element's background, 
-     we can use background color
-     
-  </p>
-
-    <style>
-       h3 {
-         color:  #5EED1B ;
-         background-color: rgb(161, 95, 9);
-       }
-    </style>
-
-    <h4  style=" text-align: center;"> units</h4>
-
-     <p style=" font-size: 10px;"> most popular unit for anything size related is the  pixel</p>
-    <h1>block level elements</h1>
-
-    <div> 1</div>
-    <div> 2</div>
-    <p>div</p>
-    <div>
-       <h1> mca 1st year</h1>
-        <p> total strength: 120</p>
-    </div>
-
-    <div>
-      <h1> mca 2st year</h1>
-       <p> total strength: 130</p>
+    <p style=" font-weight: 300;">  very nice application</p>
    </div>
 
-   <h1>
-    <a> hello</a> hey <a>world</a>
-   </h1>
 
-   <h1>student  names</h1>
-   <p id="color" class="colors"> ashish </p>
-   <p id="font"> ankush</p>
+   <h1> Faq</h1>
 
-   <p> html id attribute is used to specify a unique id</p>
-   <p> you cant have more than one id html page</p>
-
-  
-   <style>
-     #color {
-      color: aqua;
-     }
-
-      #font {
-          font-size: 55px;
-      }
-
-      .colors {
-         color: #5EED1B;
-      }
-   </style>
-
-
-
-<div>
-   <h1 class=" one">1</h1>
-   <h1 class=" one">2</h1>
-   <h1 class=" one">3</h1>
-   <h1 class=" one">4</h1>
-   <h1 class=" one ">5</h1>
-</div>
-
-
-<style>
-   .one {
-     color: aquamarine;
-   }
-
-
-   .two {
-     color: brown;
-   }
-</style>
-
-<!-- 
-<iframe src="https://www.bing.com" frameborder="5" title="iframe example" width="300px" height="300px"> </iframe>
-  -->
- <h1> radio</h1>
-
- <form>
-<label for="male"> male</label>
- <input type="radio" name="gender" id="male"/>
-
- <label for="female"> female</label>
- <input type="radio" name="gender" id="female"/>
-
- </form>
-
-
-  <form action="">
-      
-    <p> write article</p>
-
-     <textarea name="article" cols="30" rows="10"> </textarea>
-     <input type="submit" value="submit"/>
-  </form>
-
-
-
-  <form action="" autocomplete="on">
-
-     <label for=" fname"> firstname</label>
-      <input type="text" name="firstname"/>
-
-      <button type="submit">submit</button>
-  </form>
-
-  <audio controls autoplay muted>
-    <source src="./song.mp3" type="audio/mp3">
-     <source src="dog.wav" type=" audio/wav">
-  </audio>
-
-
-  <video width=" 400" height="300" controls autoplay>
-    <source src="nature.mp4" type="video/mp4"/>
-  </video>
+   <section style=" background-color: antiquewhite;">
+    
+     <p> frequently asked questions</p>
+  </section>
   </body> 
 </html>
